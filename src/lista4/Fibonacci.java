@@ -2,6 +2,8 @@ package lista4;
 
 public class Fibonacci {
 
+	// Complexidade: Exponencial, porém mais simples de ser implementada
+	// do que de forma iterativa(usando For)
 	int calcular(int n) {
 		
 		if(n == 0)

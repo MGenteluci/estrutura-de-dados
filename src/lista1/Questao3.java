@@ -1,10 +1,12 @@
 package lista1;
-
-public class ListaSequencial {
+/*
+ * Problema: Inverter uma Lista Sequencial
+ */
+public class Questao3 {
 
 	int[] lista = {1, 5, 8, 2, 3};
 	int[] listaInvertida = new int[lista.length];
-	
+
 	void inverterLista() {
 		int j = 0;
 		
@@ -22,7 +24,7 @@ public class ListaSequencial {
 	
 	public static void main(String[] args) {
 
-		ListaSequencial ls = new ListaSequencial();
+		Questao3 ls = new Questao3();
 		
 		ls.inverterLista();
 		ls.mostrarListaInvertida();
